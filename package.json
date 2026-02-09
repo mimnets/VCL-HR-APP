@@ -1,10 +1,11 @@
 {
   "name": "open-hr-app",
   "private": true,
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -12,7 +13,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "lucide-react": "0.460.0",
-    "recharts": "2.13.3",
+    "recharts": "^3.7.0",
     "pocketbase": "0.25.0",
     "firebase": "^12.7.0"
   },
